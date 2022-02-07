@@ -14,6 +14,9 @@ body{
     text-align: left;
     background-color:#C9E2DB ;
 }
+.cajaCel{
+    display: none;
+}
 .caja{
     margin-top: 50px;
     margin-left: auto;
@@ -127,7 +130,7 @@ body{
 .footer{
     position: absolute;
     bottom: 0;
-    width: 30%;
+   
 }
 .footer_text{
     color: #8b8a8a;
@@ -149,4 +152,46 @@ body{
     position: absolute;
     bottom: 0;
     right: 0;
+}
+
+@media (max-width: 450px){
+    .cajaCel{
+        margin: 10px auto;
+        display: block;
+        width: 90%;
+        height: 200px;
+    }
+
+    .imgLogoTexto{
+        width: 160px;
+        margin-top: 30px;
+    }
+    .parrafoRight{
+        width: 80%;
+        margin-top: 120px;
+    }
+    .caja{
+
+        margin-top: 0;
+        height: 400px;
+    }
+    .cajaLeft{
+        width: 100%;
+    }
+    .cajaRight{
+        display: none;
+    }
+    .superior_izquierdo{
+        width: 100%;
+    }
+    .inferior_derecha{
+        width: 100%;
+    }
+    .footer{
+        width: 100%;
+    }
+    .footer_text{
+        margin-left: 10px;
+    }
+
 }
